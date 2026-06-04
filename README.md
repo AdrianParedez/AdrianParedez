@@ -1,76 +1,82 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AdrianParedez/claude-code-research-documents/main/.github/assets/readme-banner-dark.svg">
-  <img alt="Claude Code Research banner" src="https://raw.githubusercontent.com/AdrianParedez/claude-code-research-documents/main/.github/assets/readme-banner-light.svg">
-</picture>
+<div align="center">
 
 # Adrian Paredez
 
-<sub>Solo developer · algorithm engineer · coding agents · prompt architecture · systems design</sub>
+<p>
+  <strong>First-principles systems · hardened runtimes · open-source engineering</strong>
+</p>
 
-I build coding agents, prompt architectures, and software systems that are
-easier to trust because the task, evidence, constraints, and verification loop
-are explicit.
+<p>
+  <a href="https://paredez.dev">paredez.dev</a> ·
+  <a href="https://github.com/AdrianParedez/milner">milner</a>
+</p>
 
-The clearest public statement of how I think is
-[claude-code-research-documents](https://github.com/AdrianParedez/claude-code-research-documents).
-That repository contains three hand-written papers and the prompt templates
-derived from them.
+<p>
+  <img alt="Rust" src="https://img.shields.io/badge/rust-systems-f74c00">
+  <img alt="Windows" src="https://img.shields.io/badge/windows-first-0078D4">
+  <img alt="Dependencies" src="https://img.shields.io/badge/dependencies-minimal-fbdecc">
+  <img alt="Public work" src="https://img.shields.io/badge/public%20focus-milner-6f42c1">
+</p>
 
-> Prompting is mostly task-contract design, not wording tricks.
+</div>
 
-## Read the papers
+I build software from first principles: small surfaces, explicit contracts,
+minimal dependencies, and behaviour that can be inspected under pressure. My
+current public focus is Milner, a Windows-first command runtime being shaped
+into production-grade infrastructure with safety, performance, and long-term
+open-source maintenance treated as design requirements from the start.
 
-| Paper | Focus |
-| --- | --- |
-| [Writing Optimal Prompts for Claude](https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude--prompting.md) | Claude prompting as task-contract design |
-| [Optimal Prompting for Claude Code](https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude-code--prompting.md) | Prompt architecture for an agentic coding environment |
-| [Claude Code: A Deep Research Review of Anthropic's Agentic Coding System](https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude-code--systems.md) | Systems analysis of Claude Code as an operating stack |
+## Public Focus
 
-Project site:
-[adrianparedez.github.io/claude-code-research-documents](https://adrianparedez.github.io/claude-code-research-documents/)
+<table>
+  <tr>
+    <td width="160"><strong>Milner</strong></td>
+    <td>
+      A Windows-first Rust command runtime built around explicit process launch,
+      typed parsing, narrow execution policy, and hardened operating-system
+      boundaries.
+      <br><br>
+      <a href="https://github.com/AdrianParedez/milner">Repository</a> ·
+      <a href="https://github.com/AdrianParedez/milner/releases/latest">Latest release</a>
+    </td>
+  </tr>
+</table>
 
-## Current lane
+Install Milner on Windows:
 
-- coding agents that inspect, patch, verify, and continue from evidence
-- Claude and Claude Code prompting as interface and systems design
-- multi-agent execution environments for solo engineering
-- local-first tooling, runtime design, and architecture experiments
+```powershell
+irm https://paredez.dev/install.ps1 | iex
+```
+
+## Current Lane
+
+```text
+native execution      typed command surfaces      first-principles systems
+hardened runtimes     safety by construction      open-source engineering
+```
+
+<details>
+<summary><strong>Working principles</strong></summary>
+
+- Design from first principles before importing complexity.
+- Keep dependencies intentional, minimal, and justified.
+- Prefer explicit contracts over ambient behaviour.
+- Reject ambiguous input instead of guessing.
+- Make verification part of the operating surface.
+- Optimise from evidence, not instinct.
+- Publish only what can be maintained with discipline.
+
+</details>
 
 <details>
 <summary><strong>Recurring stack</strong></summary>
-<br>
 
-I tend to build across a small set of recurring layers:
-
-- agent and product runtimes: TypeScript, Bun, Node.js, React, Ink
-- research and ML work: Python, PyTorch, uv
-- systems work: Rust, C/C++
-- agent tooling surfaces: Claude Code, MCP, OpenRouter
+- Rust for command runtimes and native execution boundaries
+- TypeScript for web-facing control surfaces
+- Tauri for planned desktop applications
+- Python for research automation and local AI experiments
+- Cloudflare for lightweight public infrastructure
 
 </details>
 
-<details>
-<summary><strong>Selected public work</strong></summary>
-<br>
-
-- [Claude Code Research Documents](https://github.com/AdrianParedez/claude-code-research-documents)
-- [HOLLAND](https://github.com/AdrianParedez/holland)
-- [mss-stubs](https://github.com/AdrianParedez/mss-stubs)
-
-</details>
-
-<details>
-<summary><strong>What I build outside the public repos</strong></summary>
-<br>
-
-Most of what I build is still private. The recurring work there is:
-
-- multi-agent workspace design
-- terminal-native coding runtimes
-- local-first AI tooling
-- developer workflow systems
-- runtime and language experiments
-
-I publish the parts that are stable enough to stand on their own.
-
-</details>
+<sub>Built with assistance from Sole.</sub>
