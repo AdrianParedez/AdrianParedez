@@ -8,23 +8,25 @@
 
 <p>
   <a href="https://paredez.dev">paredez.dev</a> ·
-  <a href="https://github.com/AdrianParedez/milner">milner</a>
+  <a href="https://github.com/AdrianParedez/milner">milner</a> ·
+  <a href="https://github.com/AdrianParedez/capability-fabric">capability-fabric</a>
 </p>
 
 <p>
   <img alt="Rust" src="https://img.shields.io/badge/rust-systems-f74c00">
   <img alt="Windows" src="https://img.shields.io/badge/windows-first-0078D4">
+  <img alt="Agent Skills" src="https://img.shields.io/badge/agent%20skills-routing-2ea44f">
   <img alt="Dependencies" src="https://img.shields.io/badge/dependencies-minimal-fbdecc">
-  <img alt="Public work" src="https://img.shields.io/badge/public%20focus-milner-6f42c1">
+  <img alt="Public work" src="https://img.shields.io/badge/public%20work-milner%20%2B%20fabric-6f42c1">
 </p>
 
 </div>
 
 I build software from first principles: small surfaces, explicit contracts,
 minimal dependencies, and behaviour that can be inspected under pressure. My
-current public focus is Milner, a Windows-first command runtime being shaped
-into production-grade infrastructure with safety, performance, and long-term
-open-source maintenance treated as design requirements from the start.
+current public work centres on Milner, a Windows-first command runtime, and
+Capability Fabric, a model-agnostic Agent Skills library for explicit routing,
+bounded context, and verifiable agent behaviour.
 
 ## Public Focus
 
@@ -40,6 +42,16 @@ open-source maintenance treated as design requirements from the start.
       <a href="https://github.com/AdrianParedez/milner/releases/latest">Latest release</a>
     </td>
   </tr>
+  <tr>
+    <td width="160"><strong>Capability Fabric</strong></td>
+    <td>
+      A model-agnostic Agent Skills library for routing, planning, research,
+      context budgeting, sustained execution, verification, and skill authoring.
+      <br><br>
+      <a href="https://github.com/AdrianParedez/capability-fabric">Repository</a> ·
+      <a href="https://github.com/AdrianParedez/capability-fabric/releases/latest">Latest release</a>
+    </td>
+  </tr>
 </table>
 
 Install Milner on Windows:
@@ -52,7 +64,8 @@ irm https://paredez.dev/install.ps1 | iex
 
 ```text
 native execution      typed command surfaces      first-principles systems
-hardened runtimes     safety by construction      open-source engineering
+hardened runtimes     agent operating method      safety by construction
+minimal dependencies   open-source engineering     verifiable behaviour
 ```
 
 <details>
@@ -63,6 +76,7 @@ hardened runtimes     safety by construction      open-source engineering
 - Prefer explicit contracts over ambient behaviour.
 - Reject ambiguous input instead of guessing.
 - Make verification part of the operating surface.
+- Keep agent work routed, bounded, and inspectable.
 - Optimise from evidence, not instinct.
 - Publish only what can be maintained with discipline.
 
@@ -76,6 +90,7 @@ hardened runtimes     safety by construction      open-source engineering
 - Tauri for planned desktop applications
 - Python for research automation and local AI experiments
 - Cloudflare for lightweight public infrastructure
+- Agent Skills for portable agent operating methods
 
 </details>
 
